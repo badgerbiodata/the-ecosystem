@@ -1,0 +1,290 @@
+// Welcome to Badger Biodata's 'The Ecosystem'!
+//
+// The website is primary uses this styling sheet (styles.scss) to style the entire site.
+// Reach out to club leadership for information regarding how the website is organized.
+//
+// Updated 2026
+
+// -- Google Font Imports -- //
+
+// Font: Noto Serif Display 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+// Font: Work Sans
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*-- scss:rules --*/
+
+// -- Main Content Area Styling (index.md / content pages) -- //
+
+main, 
+.page-columns, 
+#quarto-document-content {
+  background-color:#05170f !important; 
+  color: #f1efc8 !important;
+  margin-top: 0%;
+  padding-top: 0%;
+  font-family: "Source Serif 4", Georgia, serif;
+}
+
+p, li {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+
+// -- Headings Style (All Pages) -- //
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0.07em;
+    color: #f1efc8 !important;
+}
+
+h1.title {
+  font-family: "Source Serif 4", Georgia, serif;
+  color: #f1efc8 !important;       
+  font-size: 2.65rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  color: #f1efc8 !important; 
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f1efc8 !important; 
+}
+
+// -- Block Quotes Style -- //
+
+blockquote {
+  background-color: #082B1C;
+  border-left-color: #f1efc8;
+}
+
+blockquote p{
+    
+    color: #f1efc8;
+}
+
+a {
+    color: #eeebbb;
+}
+
+.quarto-secondary-nav {
+  background-color: #082B1C !important;
+  color: #f1efc8 !important;            
+  border-bottom: 2px solid #f1efc8 !important;
+}
+
+// -- Navigation Bar -- //
+
+.navbar {
+    background-color: #082B1C !important;
+    color: #f1efc8;
+}
+
+.navbar-brand {
+  font-family: 'Noto Serif Display', Georgia, serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: #f1efc8 !important;            
+  
+  &:hover {
+    color: #dee8de !important;           
+  }
+}
+
+.navbar-nav .nav-link { // Nav links
+  font-family: 'Noto Serif Display', Georgia, serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 100 !important;
+  color: #f1efc8 !important;             
+  letter-spacing: 0.03em;
+  padding: 0.5rem 1rem !important;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: #f7f5de !important;           
+    background-color: #0b3c27;
+  }
+
+  &.active {
+    color: #f7f5de !important;         
+    font-weight: 700 !important;
+    border-bottom: 1px solid #f1efc8;    
+    font-style: italic !important;
+  }
+}
+
+.navbar .bi, // Navbar Icons (github logo)
+.navbar .nav-link i {
+  color: #f1efc8 !important;
+  
+  &:hover {
+    color: #dee8de !important;
+  }
+}
+
+
+// -- Hero Section (Front page banner image) -- //
+
+.hero-banner {
+  background-image: url('images/welcome-banner.png'); 
+  
+  background-size: cover;       // Scales image proportionally without stretching
+  background-position: center;  // Always keeps the center of the photo focused
+  background-repeat: no-repeat;
+  
+ // Fixes Horizontal Scroll 
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 100vh;
+  box-sizing: border-box;
+  
+  // Flexbox centering for content inside
+  display: flex;
+  align-items: center;      
+  justify-content: center;      
+  text-align: center;
+  
+  // Overrides Quarto's default top margins
+  margin-top: -5% !important;
+  padding: 3rem 1.5rem;
+}
+
+// Hero Text
+
+.hero-text {
+  max-width: 800px;
+  color: #f1efc8 !important; 
+  
+  p {
+    font-family: 'Noto Serif Display', Georgia, serif !important;
+    font-style: italic !important;
+    font-size: 3.5rem !important;
+    font-weight: 300;
+    color: #f1efc8 !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0rem;
+
+  }
+  
+}
+
+// Front Page Flower Image
+
+.hero-flower {
+  display: block !important;
+  margin: -20px auto 0 auto !important; /* Centers image with top spacing */
+  max-width: 180px !important;            
+  height: auto !important;                 /* Prevents image deformation */
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Hides Web Browser Scrollbar
+   
+
+// Chrome, Edge, Safari, and Opera
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+}
+
+// Firefox 
+html, body {
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important;  /* IE/Edge */
+}
+
+// -- Member Page, member cards/boxes -- //
+ 
+
+.card-box {
+  background-color: #082B1C !important; 
+  border: 1px solid #f1efc8 !important; 
+  border-radius: 10px;
+  padding: 1.75rem;
+  height: 100%; 
+
+  h3 {
+    font-family: 'Noto Serif Display', Georgia, serif !important;
+    color:#eeebbb !important;
+    font-size: 1.4rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+    border-bottom: 1px solid rgba(241, 239, 200, 0.2) !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  p {
+    color: #f1efc8 !important;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+// <mark> tag, used to highlight things on the site
+mark {
+  background-color: #eeebbb !important;
+  color: #082B1C !important;            
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+}
+
+// member photos 
+.member-picture {
+    text-align: center;
+    width: 80%;
+    border-radius: 50%;
+    border: 1px solid #eeebbb;
+    margin-top: 1rem;
+    
+}
+
+.leader-name{
+    font-family: 'Noto Serif Display', Georgia, serif !important;
+    font-size: 1.5rem;
+}
+
+// -- Project Page project cards/boxes -- //
+.project-card {
+    border-radius: 0%;
+    width: 100%;
+    border-width: 2px 0px 2px 0px !important;
+    background-color: #05170f !important;
+    position: relative;        /* Required anchor point */
+    overflow: visible !important;
+}
+
+i:hover { // 'i' is the github logo
+    color: #eeebbb !important;
+}
+
+.corner-img { // Small flowers on corners of cards
+  position: absolute;
+  width: 100px;             
+  height: auto;
+  pointer-events: none;     
+  z-index: 10; 
+}
+
+.project-card .corner-img {
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}

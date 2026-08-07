@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  favicon: images/flower-favicon.png
+  description: "The Badger Biodata Initiative works to create a space for undergraduates to learn, create, and work with biological data."
+  search: false # Removing search option from navbar
+ 
+  navbar:
+    background: primary
+    pinned: true
+    title: The Ecosystem
+    right:
+      - href:  https://github.com
+        text: "Github"
+        icon: github
+    left:
+      - href: projects/index.md
+        text: "Projects"
+      - href: highlights/index.md
+        text: "Highlights"
+      - href: meetings/index.md
+        text: "Events"
+      - href: resources/index.md
+        text: "Resources"
+      - href: members/index.md
+        text: "Members"
+            
+
+format:
+  html:
+    page-layout: full
+    theme:
+        - cosmo
+        - styles.scss
