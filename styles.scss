@@ -32,6 +32,11 @@ p, li {
   line-height: 1.7;
 }
 
+// Hide title block on the homepage, otherwise it affects the welcome image
+body.homepage #title-block-header,
+body.homepage .quarto-secondary-nav {
+  display: none !important;
+}
 
 // -- Headings Style (All Pages) -- //
 
@@ -94,8 +99,8 @@ a {
 
 .navbar-brand {
   font-family: 'Noto Serif Display', Georgia, serif !important;
-  font-size: 1.25rem !important;
-  font-weight: 700 !important;
+  font-size: 1.3rem !important;
+  font-weight: 7500 !important;
   color: #f1efc8 !important;            
   
   &:hover {
@@ -275,7 +280,7 @@ i:hover { // 'i' is the github logo
     color: #eeebbb !important;
 }
 
-.corner-img { // Small flowers on corners of cards
+.corner-img { // Small flowers on the corners of project cards
   position: absolute;
   width: 100px;             
   height: auto;
@@ -283,8 +288,16 @@ i:hover { // 'i' is the github logo
   z-index: 10; 
 }
 
-.project-card .corner-img {
+// flowers on the TOP RIGHT corners of project cards
+.project-card .corner-img-right {
   top: 0;
-  right: 0;
+  right: 25px; // Added 25px left for mobile view
   transform: translate(50%, -50%);
+}
+
+// flowers on the TOP LEFT corners of project cards
+.project-card .corner-img-left {
+  top: 0;
+  left: 10px;
+  transform: translate(-50%, -50%);
 }
