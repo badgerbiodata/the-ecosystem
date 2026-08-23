@@ -18,7 +18,7 @@ Badger Biodata Initiative
 # Coding With Real Biology.
 ### The Badger Biodata Mission
 
-We serve to promote a space on campus for learning, creating, and innovating with <mark> *biological data programming*</mark> . Our mission is to give each member the opportunity to produce real collaborative projects using industry tools and methods. 
+We serve to promote a space on campus for learning, creating, and innovating with <mark> *biological data programming.*</mark> Our mission is to give each member the opportunity to produce real collaborative projects using industry tools and methods. 
 
 ### The Value We Bring
 
@@ -26,7 +26,7 @@ We serve to promote a space on campus for learning, creating, and innovating wit
 
 ### Our Space On Campus
 
-We foster a tight-knit community environmentfocused on learning through practice. No member has to be an expert, <mark>everyone is encouraged to join and learn.</mark> 
+We foster a tight-knit community environment focused on learning through practice. No member has to be an expert, <mark>everyone is encouraged to join and learn.</mark> 
 :::
 
 # Connecting with Us
@@ -35,9 +35,7 @@ We foster a tight-knit community environmentfocused on learning through practice
 For labs, student clubs, and speakers, please reach out to our club email: badgerbiodata@gmail.com
 
 ### For those interested in membership
-We are excited to see you! Fill out our membership form:
-- [Interested Membership Form](https://forms.gle/XCaJHqkWR6vYq8Q8A)
-Membership is processed with 2 weeks. Watch your inbox for updates.
+We are excited to see you! Fill out our [Interested Membership Form](https://forms.gle/XCaJHqkWR6vYq8Q8A), Membership is processed with 2 weeks. Watch your inbox for updates.
 
 ### Current members
 Utilize our [Discord server](https://discord.gg/nhCFtWNTj), or contact a leader. 

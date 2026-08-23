@@ -6,12 +6,7 @@
 // Updated 2026
 
 // -- Google Font Imports -- //
-
-// Font: Noto Serif Display 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
-// Font: Work Sans
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*-- scss:rules --*/
 
@@ -98,9 +93,10 @@ a {
 }
 
 .navbar-brand {
-  font-family: 'Noto Serif Display', Georgia, serif !important;
+  // font-family: 'Noto Serif Display', Georgia, serif !important;
+  font-family: "Playfair Display", serif;
   font-size: 1.3rem !important;
-  font-weight: 7500 !important;
+  font-weight: 450 !important;
   color: #f1efc8 !important;            
   
   &:hover {
@@ -109,9 +105,10 @@ a {
 }
 
 .navbar-nav .nav-link { // Nav links
-  font-family: 'Noto Serif Display', Georgia, serif !important;
+  //font-family: 'Noto Serif Display', Georgia, serif !important;
+  font-family: "Playfair Display", serif;
   font-size: 0.95rem !important;
-  font-weight: 100 !important;
+  font-weight: 400 !important;
   color: #f1efc8 !important;             
   letter-spacing: 0.03em;
   padding: 0.5rem 1rem !important;
@@ -124,7 +121,7 @@ a {
 
   &.active {
     color: #f7f5de !important;         
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     border-bottom: 1px solid #f1efc8;    
     font-style: italic !important;
   }
@@ -226,7 +223,7 @@ html, body {
   height: 100%; 
 
   h3 {
-    font-family: 'Noto Serif Display', Georgia, serif !important;
+    font-family: "Playfair Display", serif;
     color:#eeebbb !important;
     font-size: 1.4rem !important;
     margin-top: 0 !important;
