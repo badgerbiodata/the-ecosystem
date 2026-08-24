@@ -38,5 +38,5 @@ For labs, student clubs, and speakers, please reach out to our club email: badge
 We are excited to see you! Fill out our [Interested Membership Form](https://forms.gle/XCaJHqkWR6vYq8Q8A), Membership is processed with 2 weeks. Watch your inbox for updates.
 
 ### Current members
-Utilize our [Discord server](https://discord.gg/nhCFtWNTj), or contact a leader. 
+Utilize our [Discord server](https://discord.gg/FVxf2QtFgb), or contact a leader. 
 
