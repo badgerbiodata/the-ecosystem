@@ -11,7 +11,7 @@ Contact Jayden Merrick (jjmerrick [at] wisc.edu) for questions regarding the web
 
 ## Live site
 
-[jaydenjmerrick.github.io/badger-biodata-ecosystem/](https://jaydenjmerrick.github.io/badger-biodata-ecosystem/)
+[badgerbiodata.github.io/the-ecosystem/](https://badgerbiodata.github.io/the-ecosystem/)
 
 ## License
 
