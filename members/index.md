@@ -19,16 +19,16 @@ m
 -->
 ::: {.g-col-6 .g-col-md-12}
 ::: {.card-box}
-### Leadership Applications are here!
+### Leadership Interviews have concluded.
 
-Apply to lead a campus initiative! Apply on the [Leadership Application Form](https://forms.gle/Dktp2dUQ18Yq5t3w7) (Applications are not committal)
+Stay in tune for our first meeting!
 :::
 :::
 
 ::: {.g-col-6 .g-col-md-4}
 ::: {.card-box}
 ### Vice President
-<mark>Chair is open!</mark>
+<mark>Information Coming Soon!</mark>
 
 The Vice President is responsible for all matters regarding club membership. 
 :::
@@ -37,7 +37,7 @@ The Vice President is responsible for all matters regarding club membership.
 ::: {.g-col-6 .g-col-md-4}
 ::: {.card-box}
 ### Project Director
-<mark>Chair is open!</mark>
+<mark>Information Coming Soon!</mark>
 
 The Project Director is responsible for tracking and promoting member projects. 
 :::
@@ -46,7 +46,7 @@ The Project Director is responsible for tracking and promoting member projects.
 ::: {.g-col-6 .g-col-md-4}
 ::: {.card-box}
 ### Outreach Director
-<mark>Chair is open!</mark>
+<mark>Information Coming Soon!</mark>
 
 The Outreach Director fosters community connections and promotes the club around campus. 
 :::
@@ -60,7 +60,7 @@ The Outreach Director fosters community connections and promotes the club around
 
 ::: {.grid}
 
-::: {.g-col-6 .g-col-md-12}
+::: {.g-col-12 .g-col-md-12}
 ::: {.card-box}
 ### Become a Member!
 
