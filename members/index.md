@@ -1,76 +1,51 @@
----
-title: "Members"
----
+# Members
 
 ## Badger Biodata Leadership
 ::: {.grid}
 
-<!--
 ::: {.g-col-6 .g-col-md-3}
 ::: {.card-box}
 ### President
-![](../images/member-pictures/JaydenMerrick.JPEG){fig-align="center" .member-picture alt="Jayden's Picture"}
-m
-
 [Jayden Merrick]{.leader-name}
+
+
+![](../images/member-pictures/JaydenMerrick.JPEG){fig-align="center" .member-picture alt="Jayden's Picture"} 
 :::
 :::
 
--->
-::: {.g-col-6 .g-col-md-12}
-::: {.card-box}
-### Leadership Interviews have concluded.
-
-Stay in tune for our first meeting!
-:::
-:::
-
-::: {.g-col-6 .g-col-md-4}
+::: {.g-col-6 .g-col-md-3}
 ::: {.card-box}
 ### Vice President
-<mark>Information Coming Soon!</mark>
+<mark>Chair is open!</mark>
 
 The Vice President is responsible for all matters regarding club membership. 
+Apply on the Badger Biodata Leadership Interest Form
 :::
 :::
 
-::: {.g-col-6 .g-col-md-4}
+::: {.g-col-6 .g-col-md-3}
 ::: {.card-box}
 ### Project Director
-<mark>Information Coming Soon!</mark>
+<mark>Chair is open!</mark>
 
 The Project Director is responsible for tracking and promoting member projects. 
+Apply on the Badger Biodata Leadership Interest Form
 :::
 :::
 
-::: {.g-col-6 .g-col-md-4}
+::: {.g-col-6 .g-col-md-3}
 ::: {.card-box}
 ### Outreach Director
-<mark>Information Coming Soon!</mark>
+<mark>Chair is open!</mark>
 
 The Outreach Director fosters community connections and promotes the club around campus. 
+Apply on the Badger Biodata Leadership Interest Form
 :::
 :::
 
 :::
 
-
-
-## Members
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-12}
-::: {.card-box}
-### Become a Member!
-
-Become a member and create projects! Apply to the [Membership Request Form](https://forms.gle/Eqk8RJH7xeHW34iw6).
-:::
-:::
-
-:::
-
-<!-- WILL ADD WITH MEMBERS LATER 
+## Current Members
 ::: {.grid}
 
 ::: {.g-col-3 .g-col-md-2}
@@ -128,65 +103,3 @@ Name Namington.
 :::
 
 :::
-
-
-## Past Members
-::: {.grid}
-
-::: {.g-col-3 .g-col-md-2}
-::: {.card-box}
-IMG 
-
-Name Namington.
-
-:::
-:::
-
-::: {.g-col-3 .g-col-md-2}
-::: {.card-box}
-IMG 
-
-Name Namington.
-
-:::
-:::
-
-::: {.g-col-3 .g-col-md-2}
-::: {.card-box}
-IMG 
-
-Name Namington.
-
-:::
-:::
-
-::: {.g-col-3 .g-col-md-2}
-::: {.card-box}
-IMG 
-
-Name Namington.
-
-:::
-:::
-
-::: {.g-col-3 .g-col-md-2}
-::: {.card-box}
-IMG 
-
-Name Namington.
-
-:::
-:::
-
-::: {.g-col-3 .g-col-md-2}
-::: {.card-box}
-IMG 
-
-Name Namington.
-
-:::
-:::
-
-:::
-
--->
