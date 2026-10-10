@@ -4,4 +4,6 @@ title: "Meetings and Events"
 
 > **First meeting**
 >
-> Our first meeting will occur after we organize club leadership. Stay tuned!
+> <mark>Oct. 15th at 6:30pm</mark>
+>
+> Zoom link coming soon!
