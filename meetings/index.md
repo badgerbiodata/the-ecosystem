@@ -2,7 +2,7 @@
 title: "Meetings and Events"
 ---
 
-> **Virtual Kick-Off Meeting!**
+> ## Oct. 15th Virtual Kick-Off Meeting!
 >
 > We are starting with a soft-launch of our club as we currently wait for approval from UW-Madison. This will entail reoccruring virtual meetings and starting our projects!
 >
@@ -10,11 +10,18 @@ title: "Meetings and Events"
 > 
 > Meeting Schedule:
 > - About Badger Biodata
+>
 > - Meeting Our Leaders
-> - Membership Experience 
+>
+> - Membership Experience
+>
 > - Member Opportunities
+>
 > - Membership Confirmation Form & Schedules
+>
 > - Questions/Feedback
 > 
 >
-> Zoom link coming soon!
+> #### Zoom link: [Badger Biodata Kick-Off Meeting, Thurs., Oct. 15th](https://uwmadison.zoom.us/j/98510304160?pwd=D9eYlaHEVHNtWwAOham5upxakpTrc7.1)
+>
+> *Current information is always posted on our [Discord server](https://discord.gg/FVxf2QtFgb)!*
