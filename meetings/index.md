@@ -22,6 +22,6 @@ title: "Meetings and Events"
 > - Questions/Feedback
 > 
 >
-> #### Zoom link: [Badger Biodata Kick-Off Meeting, Thurs., Oct. 15th](https://uwmadison.zoom.us/j/98510304160?pwd=D9eYlaHEVHNtWwAOham5upxakpTrc7.1)
+> #### Slides coming soon!
 >
 > *Current information is always posted on our [Discord server](https://discord.gg/FVxf2QtFgb)!*
