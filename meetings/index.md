@@ -22,6 +22,6 @@ title: "Meetings and Events"
 > - Questions/Feedback
 > 
 >
-> #### Slides coming soon!
+> #### Slides coming soon!!
 >
 > *Current information is always posted on our [Discord server](https://discord.gg/FVxf2QtFgb)!*
