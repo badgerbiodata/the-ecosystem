@@ -5,6 +5,8 @@ subtitle: Enjoy the projects produced by our members Reach out to the listed aut
 
 Have a project idea? Fill out the [Request Project Idea Form](jaydenmerrick.bio) to have your idea listed below!
 
+Want to join a project? Fill out the [Group Assignment Form](https://docs.google.com/forms/d/e/1FAIpQLSd33Jlt5nIJKRLi93rjcafrrkFRYC24drP9cb_haAkdpVzvgg/viewform?pli=1)!
+
 ::: {.grid}
 
 ::: {.g-col-12}
