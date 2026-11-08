@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://badgerbiodata.github.io/the-ecosystem/index.html</loc>
-    <lastmod>2026-11-03T05:49:51.604Z</lastmod>
-  </url>
-  <url>
     <loc>https://badgerbiodata.github.io/the-ecosystem/meetings/index.html</loc>
-    <lastmod>2026-11-03T05:49:51.605Z</lastmod>
+    <lastmod>2026-11-08T20:15:34.042Z</lastmod>
   </url>
   <url>
     <loc>https://badgerbiodata.github.io/the-ecosystem/highlights/index.html</loc>
-    <lastmod>2026-11-03T05:49:51.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://badgerbiodata.github.io/the-ecosystem/resources/index.html</loc>
-    <lastmod>2026-11-03T05:49:51.605Z</lastmod>
-  </url>
-  <url>
-    <loc>https://badgerbiodata.github.io/the-ecosystem/members/index.html</loc>
-    <lastmod>2026-11-03T05:49:51.605Z</lastmod>
+    <lastmod>2026-11-08T20:15:33.988Z</lastmod>
   </url>
   <url>
     <loc>https://badgerbiodata.github.io/the-ecosystem/projects/index.html</loc>
-    <lastmod>2026-11-03T05:49:51.605Z</lastmod>
+    <lastmod>2026-11-08T20:15:34.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://badgerbiodata.github.io/the-ecosystem/members/index.html</loc>
+    <lastmod>2026-11-08T20:15:34.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://badgerbiodata.github.io/the-ecosystem/resources/index.html</loc>
+    <lastmod>2026-11-08T20:15:34.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://badgerbiodata.github.io/the-ecosystem/index.html</loc>
+    <lastmod>2026-11-08T20:15:34.042Z</lastmod>
   </url>
 </urlset>
