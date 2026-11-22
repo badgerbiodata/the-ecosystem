@@ -35,17 +35,18 @@ body.homepage .quarto-secondary-nav {
 
 // -- Headings Style (All Pages) -- //
 
+h1, h2, h3, h4, h5, h6 {
+    color:#f1efc8 !important;
+}
 h1{
     font-size: 3rem;
     font-weight: 800;
     font-style: italic;
     letter-spacing: 0.07em;
-    color: #f1efc8 !important;
 }
 
 h1.title {
   font-family: "Source Serif 4", Georgia, serif;
-  color: #f1efc8 !important;       
   font-size: 2.65rem;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -55,7 +56,6 @@ h1.title {
 
 h2 {
   font-family: "Inter", sans-serif;
-  color: #f1efc8 !important; 
   font-size: 1.6rem;
   font-weight: 600;
   margin-top: 2.5rem;
@@ -65,7 +65,6 @@ h2 {
 
 h4 {
   font-family: "Inter", sans-serif;
-  color: #f1efc8 !important; 
 }
 
 // -- Block Quotes Style -- //
@@ -76,7 +75,6 @@ blockquote {
 }
 
 blockquote p{
-    
     color: #f1efc8;
 }
 
@@ -222,13 +220,44 @@ html, body {
 
 // -- Member Page, member cards/boxes -- //
  
+// Custom grid to allow to better spacing
+.grid-24 {
+  --bs-columns: 24;
+
+}
+
+@media (max-width: 767.98px) {
+  .grid-24 {
+    display: grid;
+    grid-template-columns: 1fr; /* Forces 1 clean column with zero extra gaps */
+  }
+
+  .grid-24 > * {
+    grid-column: 1 / -1 !important; /* Spans the single column completely */
+    min-width: 0;
+  }
+}
+.top-row-card {
+   max-width: 300px; 
+}
+@media (max-width: 767.98px) {
+    .top-row-card{
+        max-width: none;
+    }
+    
+}
+
+// centered text (mainly used on certain cards)
+.centered-text {
+    text-align: center;
+}
 
 .card-box {
   background-color: #082B1C !important; 
   border: 1px solid #f1efc8 !important; 
-  border-radius: 10px;
   padding: 1.75rem;
-  height: 100%; 
+  height: 100%;
+  
 
   h3 {
     font-family: "Playfair Display", serif;
@@ -236,7 +265,7 @@ html, body {
     font-size: 1.4rem !important;
     margin-top: 0 !important;
     margin-bottom: 1rem !important;
-    border-bottom: 1px solid rgba(241, 239, 200, 0.2) !important;
+    border-bottom: 1px solid #eeebbb !important;
     padding-bottom: 0.5rem !important;
   }
 
@@ -258,12 +287,27 @@ mark {
 
 // member photos 
 .member-picture {
-    text-align: center;
-    width: 80%;
-    border-radius: 50%;
-    border: 1px solid #eeebbb;
-    margin-top: 1rem;
+    border-radius: 100%;
+    width: 100%;
     
+}
+
+// logo images
+.linked-logo {
+    margin: 30px 7px -5px 7px;
+    width: 11%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border-radius: 35%;
+    
+    &:hover{
+        background-color: rgba(250,250,250,0.1);
+        transform: scale(1.05);
+    }
+}
+
+.linked-logo.hover {
+    width: 12%;
 }
 
 .leader-name{
@@ -272,6 +316,38 @@ mark {
 }
 
 // -- Project Page project cards/boxes -- //
+.project-page-btn { // all buttons on the projects page
+    background-color: rgba(250,250,250,.05)!important;
+    border-color: #eeebbb;
+    color: #eeebbb;
+    margin: 5px;
+    font-size: 100%;
+    
+}
+
+.project-card-btn{ // only the buttons on the project cards
+    border: 0px;
+    background-color: rgba(250,250,250,.08)!important;
+    transition: background-color 0.2s ease;
+    
+    &:hover{
+        background-color: rgba(250,250,250,.15) !important;
+    }
+}
+
+.btn-logo{
+    width: 1.6%;
+    margin-bottom: 5px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 150%;
+    font-family: "Playfair Display", serif;
+}
+
 .project-card {
     border-radius: 0%;
     width: 100%;
@@ -310,13 +386,15 @@ i:hover { // 'i' is the github logo
 // Home Page button
 .btn-homepage{
     color: #eeebbb;
-    border-color: #eeebbb;
-    background-color: rgba(250,250,250,.08);
-    font-style: normal; // removes italics
+    font-size: 30%;
+    background-color: rgba(250,250,250,.12);
+    font-style: italics; // removes italics
+    font-weight: 100%;
     
     &:hover {
     color: #eeeece !important;  
-    background-color: rgba(250,250,250,.1);
+    background-color: rgba(250,250,250,.3);
+    border-color: #eeebbb;
   }
 }
 
