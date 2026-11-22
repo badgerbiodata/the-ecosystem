@@ -8,7 +8,7 @@ title: "Meetings and Events"
 > ## Nov. 8th In-person General Meeting
 Slides:
 >
-><div style="position: relative; width: 100%; max-width: 960px; aspect-ratio: 960 / 569;">
+><div style="position: relative; width: 100%; max-width: 960px; aspect-ratio: 960 / 569; margin: auto;">
     <iframe 
         src="https://docs.google.com/presentation/d/e/2PACX-1vQaY77xjNr1iEFPf68S7CjyHsgWbnL4xyTKEBUwdexOnKGbTpdxc297wxWfaq_Y8yQLqCMETwst5-_q/pubembed?start=false&loop=false&delayms=3000"
         frameborder="0"
@@ -31,7 +31,7 @@ Slides:
 >
 > Slides: 
 > 
-><div style="position: relative; width: 100%; max-width: 960px; aspect-ratio: 960 / 569;">
+><div style="position: relative; width: 100%; max-width: 960px; aspect-ratio: 960 / 569; margin: auto;">
  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQaY77xjNr1iEFPf68S7CjyHsgWbnL4xyTKEBUwdexOnKGbTpdxc297wxWfaq_Y8yQLqCMETwst5-_q/pubembed?start=false&loop=false&delayms=3000" 
  frameborder="0" width="960" height="569" allowfullscreen="true" 
  mozallowfullscreen="true" webkitallowfullscreen="true">
