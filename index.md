@@ -11,6 +11,8 @@ body-classes: homepage
 Badger Biodata Initiative
 
 ![](images/index-flower.png){.hero-flower alt="Badger Biodata Flower"}
+[WIN Page](https://win.wisc.edu/feeds?type=club&type_id=36681&tab=about){.btn .btn-homepage}
+[Discord](https://discord.gg/FVxf2QtFgb){.btn .btn-homepage}
 :::
 :::
 

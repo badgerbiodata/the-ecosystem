@@ -171,6 +171,7 @@ a {
 // Hero Text
 
 .hero-text {
+  margin-top: 80px;
   max-width: 800px;
   color: #f1efc8 !important; 
   
@@ -191,7 +192,7 @@ a {
 
 .hero-flower {
   display: block !important;
-  margin: -20px auto 0 auto !important; /* Centers image with top spacing */
+  margin: -20px auto -20px auto !important; /* Centers image with top spacing */
   max-width: 180px !important;            
   height: auto !important;                 /* Prevents image deformation */
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
@@ -305,3 +306,18 @@ i:hover { // 'i' is the github logo
   left: 10px;
   transform: translate(-50%, -50%);
 }
+
+// Home Page button
+.btn-homepage{
+    color: #eeebbb;
+    border-color: #eeebbb;
+    background-color: rgba(250,250,250,.08);
+    font-style: normal; // removes italics
+    
+    &:hover {
+    color: #eeeece !important;  
+    background-color: rgba(250,250,250,.1);
+  }
+}
+
+ 
